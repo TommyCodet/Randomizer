@@ -1,0 +1,13 @@
+name: BlockRandomizer
+version: 1.0
+main: de.example.blockrandomizer.BlockRandomizer
+api-version: '1.21.11'
+
+commands:
+  reset:
+    description: Setzt den BlockRandomizer zurück
+    permission: blockrandomizer.reset
+
+permissions:
+  blockrandomizer.reset:
+    default: op
